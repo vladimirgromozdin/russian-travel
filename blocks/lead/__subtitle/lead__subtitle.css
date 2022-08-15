@@ -7,5 +7,22 @@
   text-align: center;
   padding-bottom: 64px;
   max-width: 640px;
-  max-height: 72px;
+}
+
+@media (max-width: 767px) and (min-width: 321px) {
+  .lead__subtitle {
+    max-width: 83.44vw;
+    font-size: 3.91vw;
+    padding-bottom: 40px;
+    line-height: 4.69vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__subtitle {
+    max-width: 288px;
+    font-size: 16px;
+    padding-bottom: 40px;
+    line-height: 20px;
+  }
 }
