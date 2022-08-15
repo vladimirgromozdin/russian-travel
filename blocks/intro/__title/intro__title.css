@@ -6,3 +6,19 @@
   font-weight: 800;
   padding-bottom: 40px;
 }
+
+@media (max-width: 767px) and (min-width: 321px) {
+  .intro__title {
+    font-size: 10vw;
+    max-width: 93.75vw;
+    line-height: 10.93vw;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__title {
+    font-size: 32px;
+    max-width: 288px;
+    line-height: 35px;
+  }
+}

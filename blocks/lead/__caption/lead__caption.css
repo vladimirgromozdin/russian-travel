@@ -7,13 +7,13 @@
   align-self: flex-start;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .lead__caption {
     padding-left: 24px;
   }
 }
 
-@media screen and (max-width: 328px) {
+@media screen and (max-width: 320px) {
   .lead__caption {
     padding-left: 16px;
   }
