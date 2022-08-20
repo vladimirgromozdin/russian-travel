@@ -1,0 +1,6 @@
+.footer {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 92px 0px 24px;
+}

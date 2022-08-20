@@ -1,0 +1,18 @@
+.cover {
+  display: flex;
+  flex-direction: column;
+  max-width: 92.5vw;
+  margin: auto;
+  align-items: center;
+  background-image: url("../../images/cover-train.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  background-color: rgba(42, 44, 47, 0.3);
+  background-clip: content-box;
+  box-sizing: content-box;
+}
+
+.cover:hover {
+  background-color: rgba(42, 44, 47, 0.8);
+}

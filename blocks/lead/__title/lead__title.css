@@ -9,9 +9,9 @@
   max-width: 720px;
 }
 
-@media (max-width: 767px) and (min-width: 321px) {
+@media (max-width: 767px) {
   .lead__title {
-    font-size: 12.51vw;
+    font-size: 12.5vw;
     padding-bottom: 16px;
     line-height: 14vw;
   }
@@ -19,9 +19,9 @@
 
 @media (max-width: 320px) {
   .lead__title {
-    font-size: 40px;
+    font-size: 12.5vw;
     padding-bottom: 16px;
     line-height: 44px;
-    max-width: 288px;
+    max-width: 90vw;
   }
 }

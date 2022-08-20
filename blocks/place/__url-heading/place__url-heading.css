@@ -1,0 +1,8 @@
+.place__url-heading {
+  display: inline-flex;
+  padding-bottom: 12px;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #aaa;
+}

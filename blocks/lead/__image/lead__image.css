@@ -1,17 +1,15 @@
 .lead__image {
-  max-width: 984px;
+  max-width: 76.875vw;
 }
 
 @media screen and (max-width: 1279px) {
   .lead__image {
-    max-width: 928px;
-    max-height: 580px;
+    max-width: 90.625vw;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .lead__image {
-    width: 100%;
-    object-fit: contain;
+    max-width: 100vw;
   }
 }
