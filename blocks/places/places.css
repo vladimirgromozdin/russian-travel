@@ -7,3 +7,26 @@
   padding: 0px 100px 92px;
   gap: 80px;
 }
+
+@media screen and (max-width: 1279px) {
+  .places {
+    padding: 0px 0px 92px;
+    max-width: 90.625vw;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    padding: 0px 24px 90px;
+    max-width: 93.75vw;
+    gap: 73px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places {
+    padding: 0px 0px 66px;
+    gap: 50px;
+    max-width: 100vw;
+  }
+}

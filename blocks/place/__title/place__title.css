@@ -4,3 +4,19 @@
   font-weight: 800;
   color: #fff;
 }
+
+@media screen and (max-width: 1023px) {
+  .place__title {
+    font-size: 5.46875vw;
+    line-height: 5.989583333333334vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__title {
+    font-size: 10vw;
+    line-height: 10.9375vw;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}

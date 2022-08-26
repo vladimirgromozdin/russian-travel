@@ -13,7 +13,7 @@
     max-width: 90.625vw;
     grid-template-columns: repeat(3, 1fr);
     margin: auto;
-    padding: 0px 48px 92px;
+    padding: 0px 0px 92px;
   }
 }
 

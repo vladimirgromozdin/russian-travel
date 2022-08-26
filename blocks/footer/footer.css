@@ -1,6 +1,12 @@
 .footer {
   display: grid;
-  grid-auto-flow: column;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr minmax(min-content, max-content);
   padding: 92px 0px 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    grid-template-columns: 100%;
+    padding: 64px 16px 24px;
+  }
 }
