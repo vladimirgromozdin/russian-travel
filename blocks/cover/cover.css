@@ -1,7 +1,6 @@
 .cover {
   display: flex;
   flex-direction: column;
-  /* width: 92.5vw; */
   margin: auto;
   align-items: center;
   background-position: center;

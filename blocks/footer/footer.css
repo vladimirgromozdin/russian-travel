@@ -1,12 +1,13 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr minmax(min-content, max-content);
-  padding: 92px 0px 24px;
+  padding: 92px 0px 0px;
 }
 
 @media screen and (max-width: 767px) {
   .footer {
-    grid-template-columns: 100%;
-    padding: 64px 16px 24px;
+    grid-template-columns: 1fr;
+    padding: 64px 16px 0px;
+    row-gap: 64px;
   }
 }
