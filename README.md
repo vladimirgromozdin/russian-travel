@@ -24,4 +24,4 @@
 
 **GitHub Pages**
 Демо проекта на GitHub Pages доступно по ссыдле:
-[Обычная ссылка](https://www.yandex.ru)
+[Путешествие по России](https://vladimirgromozdin.github.io/russian-travel/)
