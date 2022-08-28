@@ -1,6 +1,7 @@
 /* Подключаем общие стили всей страницы */
 @import url("../vendor/normalize.css");
 @import url("../vendor/fonts.css");
+@import url("../blocks/body/body.css");
 @import url("../blocks/page/page.css");
 
 /* Подключаем стили секции HEADER */
@@ -44,7 +45,6 @@
 @import url("../blocks/cover/cover.css");
 @import url("../blocks/cover/__title/cover__title.css");
 @import url("../blocks/cover/__subtitle/cover__subtitle.css");
-@import url("../blocks/cover/__hover-area/cover__hover-area.css");
 
 /* Подключаем стили секции FOOTER */
 @import url("../blocks/footer/footer.css");
