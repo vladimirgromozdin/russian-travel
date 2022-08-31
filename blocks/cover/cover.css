@@ -3,6 +3,7 @@
   flex-direction: column;
   margin: auto;
   align-items: center;
+  justify-content: center;
   background-position: center;
   background-image: url("../../images/cover-train.jpg");
   background-size: cover;
@@ -11,11 +12,19 @@
   background-color: rgba(42, 44, 47, 0.3);
   background-clip: content-box;
   box-sizing: content-box;
+  gap: 32px;
+  aspect-ratio: 1.6;
 }
 
 @media screen and (max-width: 1279px) {
   .cover {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {
+    gap: 16px;
   }
 }
 

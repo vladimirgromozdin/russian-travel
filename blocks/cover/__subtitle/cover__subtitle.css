@@ -5,20 +5,6 @@
   max-width: 360px;
   text-align: center;
   color: #fff;
-  padding-top: 32px;
-  padding-bottom: 245px;
-}
-
-@media screen and (max-width: 1279px) {
-  .cover__subtitle {
-    padding-bottom: 195px;
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .cover__subtitle {
-    padding-bottom: 115px;
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -26,7 +12,5 @@
     max-width: 288px;
     font-size: 14px;
     line-height: 16px;
-    padding-top: 16px;
-    padding-bottom: 33px;
   }
 }

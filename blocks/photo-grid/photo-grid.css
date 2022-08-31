@@ -9,30 +9,25 @@
 
 @media screen and (max-width: 1279px) {
   .photo-grid {
-    display: grid;
     max-width: 90.625vw;
     grid-template-columns: repeat(3, 1fr);
-    margin: auto;
     padding: 0px 0px 92px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .photo-grid {
-    display: grid;
     max-width: 93.75vw;
     grid-template-columns: repeat(2, 1fr);
-    margin: auto;
     padding: 0px 24px 88px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .photo-grid {
-    display: grid;
     max-width: 90vw;
     grid-template-columns: repeat(1, 1fr);
-    margin: auto;
     padding: 0px 16px 64px;
+    gap: 12px;
   }
 }

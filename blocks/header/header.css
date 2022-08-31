@@ -10,11 +10,10 @@
   align-items: flex-end;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
   .header {
-    padding: 28px 24px 48px;
+    padding: 0px 48px 48px;
     font-size: 24px;
-    align-items: center;
   }
 }
 
@@ -22,6 +21,5 @@
   .header {
     padding: 16px 16px 48px;
     font-size: 18px;
-    align-items: center;
   }
 }
