@@ -5,6 +5,10 @@
   padding-bottom: 26px;
 }
 
+.place__paragraph:last-of-type {
+  padding-bottom: 0px;
+}
+
 @media screen and (max-width: 1023px) {
   .place__paragraph {
     padding-bottom: 25px;
@@ -16,9 +20,5 @@
     padding-left: 16px;
     padding-right: 16px;
     font-size: 16px;
-  }
-
-  .place__paragraph:last-of-type {
-    padding-bottom: 0px;
   }
 }

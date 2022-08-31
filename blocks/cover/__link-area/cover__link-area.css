@@ -1,5 +1,16 @@
 .cover__link-area {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100%;
+  align-items: center;
+  justify-content: center;
   z-index: 2;
+  gap: 32px;
+}
+
+@media screen and (max-width: 737px) {
+  .cover__link-area {
+    gap: 16px;
+  }
 }
